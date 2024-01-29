@@ -1,6 +1,16 @@
 //import everything here
-import "./styles.css"
+import React from 'react';
+//import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import Navbar from './Navbar';
+import Merch from "./pages/Merch"
 
-export default function App() {
-  return "Hey";
+
+function App() {
+  return (
+    <>
+    <Navbar/>
+    </>
+  )
 }
+
+export default App
