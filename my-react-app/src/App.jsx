@@ -8,7 +8,8 @@ import Merch from "./pages/Merch"
 function App() {
   return (
     <>
-    <Navbar/>
+    < Navbar/>
+    <div className="html"></div>
     </>
   )
 }
